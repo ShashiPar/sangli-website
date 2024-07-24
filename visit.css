@@ -59,3 +59,22 @@ footer {
     background-color: #333;
     color: white;
 }
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 30px 10px;
+    }
+
+    .places {
+        padding: 10px;
+    }
+
+    .place-item {
+        margin-bottom: 15px;
+    }
+}

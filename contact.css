@@ -76,3 +76,38 @@ footer {
     background-color: #333;
     color: white;
 }
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .contact form {
+        max-width: 90%;
+    }
+    .contact input,
+    .contact textarea {
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+    .contact button {
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li {
+        margin: 5px 0;
+    }
+    .contact form {
+        max-width: 80%;
+    }
+    .contact input,
+    .contact textarea {
+        padding: 6px;
+        margin-bottom: 8px;
+    }
+    .contact button {
+        padding: 6px 10px;
+    }
+}

@@ -88,3 +88,25 @@ footer {
     background-color: #333;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        height: 300px;
+    }
+
+    .hero-content {
+        padding: 15px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .history-item {
+        padding: 10px;
+    }
+
+    .history-item img {
+        max-width: 100%;
+    }
+}
